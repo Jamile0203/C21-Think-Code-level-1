@@ -6,4 +6,4 @@ print(10 * (2/1))
 
 # semantic error
 name = "Alice"
-print("Hello " + name)s
+print("Hello " + name)

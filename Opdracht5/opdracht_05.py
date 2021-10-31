@@ -2,10 +2,10 @@
 #elke keer dat je de functie aanroept voeg je een nieuwe game toe als parameter
 #weet je niet meer hoe? Check het solution filmpje op: https://www.linkedin.com/learning/programming-foundations-fundamentals-3/solution-favorite-cities
 
-def favorite_games(name):
-    print("Welke zijn je favoriete games?", name)
+def favorite_movie(favorite_movie, thewitcher):
+    print("Hi! What's your favorite movie?")
 
-favorite_games("The sims")
-favorite_games("Skyrim")
-favorite_games("Dragon Age")
-
+    if(favorite_movie == the_witcher):
+        print("Wow! I like it too!")
+    else:
+        print("Sorry, I don't know it...")
